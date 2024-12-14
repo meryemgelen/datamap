@@ -1,0 +1,9 @@
+CREATE TABLE locations (
+    id SERIAL PRIMARY KEY,
+    lat DOUBLE PRECISION NOT NULL,
+    lng DOUBLE PRECISION NOT NULL,
+    note TEXT
+);
+
+SELECT * FROM public.locations
+ORDER BY id ASC 
