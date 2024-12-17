@@ -7,7 +7,7 @@ const { Pool } = require('pg');
 const pool = new Pool({
   user: 'postgres', // PostgreSQL kullanıcı adı
   host: 'localhost', // PostgreSQL sunucu adresi
-  database: 'map_data', // Veritabanı adı
+  database: 'mapdb', // Veritabanı adı
   password: 'meri', // PostgreSQL şifresi
   port: 5432, // PostgreSQL portu
 });

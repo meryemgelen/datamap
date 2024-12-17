@@ -113,3 +113,4 @@ dist
 /startup
 app.js
 index.js
+.angular
